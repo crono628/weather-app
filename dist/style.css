@@ -1,0 +1,51 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: skyblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  padding: 15px;
+}
+
+.results {
+  margin: 15px;
+  font-size: 30px;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: row;
+}
+
+.ease {
+  transition: font-color 1s ease-out;
+}
+
+.forecast-date {
+  font-size: 25px;
+  margin: 0 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.forecast-temp {
+  font-size: 15px;
+  margin: 5px;
+}
