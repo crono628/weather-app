@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather</title>
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="container">
-      <form action="">
-        <input type="text" />
+      <form class="form">
+        <label for="zip-code">Check your local forecast:</label>
+        <input id="zip-code" type="text" placeholder="Enter a Zip Code" />
         <button type="submit">Search</button>
       </form>
       <div class="results"></div>
+      <div class="forecast"></div>
     </div>
   </body>
 </html>
